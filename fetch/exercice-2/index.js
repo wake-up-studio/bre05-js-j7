@@ -1,4 +1,6 @@
-let url = "https://maridoucet.sites.3wa.io/user-api/users";
+let url = "https://corsproxy.io/?" + encodeURIComponent(
+    "https://maridoucet.sites.3wa.io/user-api/users"
+);
 
 fetch(url)
     .then(response => response.json())
